@@ -1,7 +1,7 @@
 <template>
   <!-- NAVBAR -->
   <nav
-    class="navBar w-full bg-transparent flex flex-row justify-between items-center py-8 px-4 md:px-15 fixed z-50"
+    class="navBar w-full bg-green-1 flex flex-row justify-between items-center py-8 px-4 md:px-15 z-50 absolute"
   >
     <RouterLink
       to="/"

@@ -80,7 +80,7 @@
                 <div class="w-20 text-xs text-light opacity-90 bg-maroon-1 font-monospace text-center">BLENDER</div>
               </div>
               <p class="text-[#F5ECD8] text-justify">The Keeper is a meta-horror game that explores feelings of deception, manipulation, and deceit, especially in times of vulnerability.
-                You play as Nanay Angelina, the dorm keeper who balances to chores and with complex extrapersonal relationships with the rest of the tenants and her daughter.
+                You play as Nanay Angelina, a dorm keeper who balances chores with complex extrapersonal relationships with the rest of the tenants and her daughter.
                 When everything else goes wrong, do you have what it takes to remain calm, observant, and skeptical?</p>
             </div>
             <button class="button font-monospace mt-5 md:mt-0 p-2!">VIEW THIS PROJECT</button>
