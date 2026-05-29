@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+@import 'primeicons/primeicons.css';
+
+@theme {
+  --color-green-1: #7e988d;
+  --color-green-2: #a2b099;
+  --color-green-3: #debf89;
+  --color-yellow-1: #ffda93;
+  --color-orange-1: #fbaa7d;
+  --color-maroon-1: #be8294;
+  --color-light: #f5f5f5;
+  --color-dark: #2a2a1f;
+  --color-bg-light: #fff2e6;
+  --color-bg-dark: #332b28;
+  --color-text-black: #21160d;
+}
+
+.font-monospace {
+  font-family: 'Space Mono';
+}
+
+.divider-l {
+  @apply w-[2px] bg-dark opacity-30;
+}
+
+.divider-s {
+  @apply h-[2px] bg-black opacity-30 self-stretch my-3;
+}
+
+.flex-center-preset {
+  @apply flex justify-center items-center;
+}
+
+.button {
+  @apply bg-[#ffda93] p-5 border-2 cursor-pointer transition-all ease-in-out;
+}
+
+.button:hover {
+  @apply bg-[#fbaa7d];
+}
