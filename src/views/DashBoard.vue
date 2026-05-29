@@ -4,12 +4,12 @@
     <!-- NAVBAR -->
     <nav class="navBar w-full bg-transparent flex flex-row justify-between items-center py-8 px-4 md:px-15 fixed z-50">
 
-      <div class="logo text-2xl font-bold font-monospace text-yellow-1">_karlo.</div>
+      <div class="logo text-2xl font-bold font-monospace text-yellow-1 hover:text-text-black hover:transition-all cursor-pointer hover:bg-yellow-1">_karlo.</div>
 
       <div class="quickLinks hidden md:flex flex-row gap-5">
-        <div class="text-xl text-yellow-1">About</div>
-        <div class="text-xl text-yellow-1">Projects</div>
-        <div class="text-xl text-yellow-1">Contact</div>
+        <a href="#about" class="font-monospace text-xl text-yellow-1 hover:text-text-black hover:transition-all cursor-pointer hover:bg-yellow-1">About</a>
+        <a class="font-monospace text-xl text-yellow-1 hover:text-text-black hover:transition-all cursor-pointer hover:bg-yellow-1">Projects</a>
+        <a class="font-monospace text-xl text-yellow-1 hover:text-text-black hover:transition-all cursor-pointer hover:bg-yellow-1">Contact</a>
       </div>
 
       <button class="md:hidden flex flex-col gap-1.5 p-2" @click="isOpen = !isOpen">
@@ -44,7 +44,7 @@
             I'm a CS student who loves building web apps and self-hosted infrastructure. I love
             understanding how systems work - from code all the way to the server.
           </p>
-          <button class="button mt-10 font-monospace">VIEW MY WORK</button>
+          <a class="button mt-10 font-monospace" href="#projects">VIEW MY WORK</a>
         </div>
 
         <!-- DIVIDER -->
@@ -73,7 +73,7 @@
     </div>
 
     <!-- PROJECTS SECTION -->
-    <div class="projectSection min-h-[200%] w-full bg-green-1 flex flex-col gap-5 p-4 md:p-15">
+    <div id="projects" class="projectSection min-h-full w-full bg-green-1 flex flex-col gap-5 p-4 md:p-15">
       <h1 class="projectHeading text-3xl text-yellow-1 font-extrabold font-monospace">_projects.</h1>
       <div class="mainProjectContainer flex flex-col justify-around gap-2">
 
@@ -130,7 +130,7 @@
     </div>
 
     <!-- ABOUT SECTION -->
-    <div class="aboutSection min-h-full w-full p-4 md:p-15 bg-green-1 flex justify-center items-center">
+    <div id="about" class="aboutSection min-h-full w-full p-4 md:p-15 bg-green-1 flex justify-center items-center">
       <div class="aboutContainer h-full w-full flex flex-col justify-center gap-5">
         <h1 class="text-3xl text-yellow-1 font-extrabold font-monospace">_about.</h1>
 
@@ -158,19 +158,19 @@
 
             <div class="links md:w-full flex gap-6 flex-col md:flex-row justify-between">
               <a class="opacity-70 hover:text-yellow-1 transition-all cursor-pointer" href="https://github.com/karlo-alano">
-                <p>Github <i class="pi pi-github"></i></p>
+                <p class="font-monospace">Github <i class="pi pi-github"></i></p>
               </a>
               <a class="opacity-70 hover:text-yellow-1 transition-all cursor-pointer" href="https://www.linkedin.com/in/juan-karlo-alano-a74821412/">
-                <p>LinkedIn <i class="pi pi-linkedin"></i></p>
+                <p class="font-monospace">LinkedIn <i class="pi pi-linkedin"></i></p>
               </a>
               <a class="opacity-70 hover:text-yellow-1 transition-all cursor-pointer" href="mailto:alano.juankarlo@gmail.com">
-                <p>Email <i class="pi pi-envelope"></i></p>
+                <p class="font-monospace">Email <i class="pi pi-envelope"></i></p>
               </a>
               <a class="opacity-70 hover:text-yellow-1 transition-all cursor-pointer" href="https://www.facebook.com/karl0wo/">
-                <p>Facebook <i class="pi pi-facebook"></i></p>
+                <p class="font-monospace">Facebook <i class="pi pi-facebook"></i></p>
               </a>
               <a class="opacity-70 hover:text-yellow-1 transition-all cursor-pointer" href="https://www.instagram.com/karl0__o/">
-                <p>Instagram <i class="pi pi-instagram"></i></p>
+                <p class="font-monospace">Instagram <i class="pi pi-instagram"></i></p>
               </a>
             </div>
           </div>

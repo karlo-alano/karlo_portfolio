@@ -15,6 +15,10 @@
   --color-text-black: #21160d;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .font-monospace {
   font-family: 'Space Mono';
 }
